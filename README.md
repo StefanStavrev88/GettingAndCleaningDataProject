@@ -1,4 +1,4 @@
-# Getting And Cleaning Data Project - Stefan Stavrev
+# Getting And Cleaning Data Project - Stefan Stavrev (April, 2015)
 
 ## How to produce tidy data from raw data?
 
