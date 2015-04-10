@@ -32,7 +32,7 @@ You should create one R script called run_analysis.R that does the following.
 * 3. Run the script run_analysis.R (make sure your R working directory is set to where you extracted the raw data).
 
 ## How does run_analysis.R work?
-Please open run_analysis.R https://github.com/StefanStavrev88/GettingAndCleaningDataProject/blob/master/run_analysis.R as you read this. It is divided into seven commented parts, and each part is explained below.
+Please see run_analysis.R https://github.com/StefanStavrev88/GettingAndCleaningDataProject/blob/master/run_analysis.R . It is divided into seven commented parts, and each part is explained below.
 
 ### Part 1
 Read the files in the train folder: "subject_train.txt", "X_train.txt", "y_train.txt". The following arguments for read.table are set for faster reading: header=F, colClasses=c("integer"), nrows=7352, comment.char="".
