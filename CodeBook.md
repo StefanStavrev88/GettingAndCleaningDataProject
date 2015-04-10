@@ -122,6 +122,55 @@ str(result)
  $ fBodyBodyGyroJerkMag-meanFreq(): num  0.1907 0.1263 0.0458 0.2654 0.0527 ...
  ```
 
+ ### Tidy Data Head
+
+```r
+head(result, 2)
+```
+
+```
+  subjectID activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z tBodyAcc-std()-X tBodyAcc-std()-Y tBodyAcc-std()-Z tGravityAcc-mean()-X
+1         1  WALKING         0.2773308       -0.01738382        -0.1111481       -0.2837403       0.11446134       -0.2600279            0.9352232
+2         2  WALKING         0.2764266       -0.01859492        -0.1055004       -0.4236428      -0.07809125       -0.4252575            0.9130173
+  tGravityAcc-mean()-Y tGravityAcc-mean()-Z tGravityAcc-std()-X tGravityAcc-std()-Y tGravityAcc-std()-Z tBodyAccJerk-mean()-X tBodyAccJerk-mean()-Y
+1           -0.2821650          -0.06810286          -0.9766096          -0.9713060          -0.9477172            0.07404163            0.02827211
+2           -0.3466071           0.08472709          -0.9726932          -0.9721169          -0.9720728            0.06180807            0.01824927
+  tBodyAccJerk-mean()-Z tBodyAccJerk-std()-X tBodyAccJerk-std()-Y tBodyAccJerk-std()-Z tBodyGyro-mean()-X tBodyGyro-mean()-Y tBodyGyro-mean()-Z
+1          -0.004168406           -0.1136156           0.06700250           -0.5026998        -0.04183096        -0.06953005         0.08494482
+2           0.007895337           -0.2775305          -0.01660224           -0.5860904        -0.05302582        -0.04823823         0.08283366
+  tBodyGyro-std()-X tBodyGyro-std()-Y tBodyGyro-std()-Z tBodyGyroJerk-mean()-X tBodyGyroJerk-mean()-Y tBodyGyroJerk-mean()-Z tBodyGyroJerk-std()-X
+1        -0.4735355       -0.05460777        -0.3442666            -0.08999754            -0.03984287            -0.04613093            -0.2074219
+2        -0.5615503       -0.53845367        -0.4810855            -0.08188334            -0.05382994            -0.05149392            -0.3895498
+  tBodyGyroJerk-std()-Y tBodyGyroJerk-std()-Z tBodyAccMag-mean() tBodyAccMag-std() tGravityAccMag-mean() tGravityAccMag-std() tBodyAccJerkMag-mean()
+1            -0.3044685            -0.4042555         -0.1369712        -0.2196886            -0.1369712           -0.2196886             -0.1414288
+2            -0.6341404            -0.4354927         -0.2904076        -0.4225442            -0.2904076           -0.4225442             -0.2814242
+  tBodyAccJerkMag-std() tBodyGyroMag-mean() tBodyGyroMag-std() tBodyGyroJerkMag-mean() tBodyGyroJerkMag-std() fBodyAcc-mean()-X fBodyAcc-mean()-Y
+1           -0.07447175          -0.1609796         -0.1869784              -0.2987037             -0.3253249        -0.2027943        0.08971273
+2           -0.16415099          -0.4465491         -0.5530199              -0.5479120             -0.5577982        -0.3460482       -0.02190481
+  fBodyAcc-mean()-Z fBodyAcc-std()-X fBodyAcc-std()-Y fBodyAcc-std()-Z fBodyAcc-meanFreq()-X fBodyAcc-meanFreq()-Y fBodyAcc-meanFreq()-Z
+1        -0.3315601       -0.3191347       0.05604001       -0.2796868            -0.2075484             0.1130936            0.04972652
+2        -0.4538064       -0.4576514      -0.16921969       -0.4552221            -0.1457955             0.1985865            0.06889952
+  fBodyAccJerk-mean()-X fBodyAccJerk-mean()-Y fBodyAccJerk-mean()-Z fBodyAccJerk-std()-X fBodyAccJerk-std()-Y fBodyAccJerk-std()-Z
+1            -0.1705470           -0.03522552            -0.4689992           -0.1335866           0.10673986           -0.5347134
+2            -0.3046153           -0.07876408            -0.5549567           -0.3143131          -0.01533295           -0.6158982
+  fBodyAccJerk-meanFreq()-X fBodyAccJerk-meanFreq()-Y fBodyAccJerk-meanFreq()-Z fBodyGyro-mean()-X fBodyGyro-mean()-Y fBodyGyro-mean()-Z
+1               -0.20926197                -0.3862371                -0.1855303         -0.3390322         -0.1030594         -0.2559409
+2               -0.07271016                -0.2635740                -0.2548464         -0.4297135         -0.5547721         -0.3966599
+  fBodyGyro-std()-X fBodyGyro-std()-Y fBodyGyro-std()-Z fBodyGyro-meanFreq()-X fBodyGyro-meanFreq()-Y fBodyGyro-meanFreq()-Z fBodyAccMag-mean()
+1        -0.5166919       -0.03350816        -0.4365622             0.01478450            -0.06577462           0.0007733216         -0.1286235
+2        -0.6040530       -0.53304695        -0.5598566             0.00727968            -0.04270093           0.1397521153         -0.3242894
+  fBodyAccMag-std() fBodyAccMag-meanFreq() fBodyBodyAccJerkMag-mean() fBodyBodyAccJerkMag-std() fBodyBodyAccJerkMag-meanFreq()
+1        -0.3980326              0.1906437                 -0.0571194                -0.1034924                     0.09382218
+2        -0.5771052              0.3932062                 -0.1690644                -0.1640920                     0.20750093
+  fBodyBodyGyroMag-mean() fBodyBodyGyroMag-std() fBodyBodyGyroMag-meanFreq() fBodyBodyGyroJerkMag-mean() fBodyBodyGyroJerkMag-std()
+1              -0.1992526             -0.3210180                   0.2688444                  -0.3193086                 -0.3816019
+2              -0.5307048             -0.6517928                   0.3052838                  -0.5832493                 -0.5581046
+  fBodyBodyGyroJerkMag-meanFreq()
+1                       0.1906634
+2                       0.1263446
+``` 
+ 
+ 
 ## How to produce tidy data from raw data?
 
 * 1. Download raw data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
