@@ -1,5 +1,8 @@
 # Getting And Cleaning Data Project - Stefan Stavrev (April, 2015)
 
+## Project Description
+This is a course project for the course "Getting and Cleaning Data (Johns Hopkins University)" taught by Jeff Leek, Roger D. Peng, Brian Caffo. It is part of a 10 courses specialization in Data Science. The goal of the project was to take raw data as input and to write an R script that will produce tidy data, that is, data that is ready for analysis.                                                           
+
 ## How to produce tidy data from raw data?
 
 * 1. Download raw data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
