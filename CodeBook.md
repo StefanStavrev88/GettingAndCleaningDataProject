@@ -120,9 +120,9 @@ str(result)
  $ fBodyBodyGyroJerkMag-mean()    : num  -0.319 -0.583 -0.608 -0.724 -0.548 ...
  $ fBodyBodyGyroJerkMag-std()     : num  -0.382 -0.558 -0.549 -0.758 -0.456 ...
  $ fBodyBodyGyroJerkMag-meanFreq(): num  0.1907 0.1263 0.0458 0.2654 0.0527 ...
- ```
+```
 
- ### Tidy Data Head
+### Tidy Data Head
 
 ```r
 head(result, 2)
