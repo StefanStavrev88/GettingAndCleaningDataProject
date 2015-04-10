@@ -183,7 +183,7 @@ head(result, 2)
 * 3. The tables from steps 1 and 2 were row binded with rbind in R.
 * 4. Columns from table in step 3, were removed. The columns kept, were specified by the file features.txt in the original dataset.
 * 5. Columns from table in step 4, were appropriately named, according to the file activity_labels.txt in the original dataset.
-* 6. Finally, in the table from step 6, the data was grouped by the columns "subjectID" and "activity", and then the mean function was applied to the other columns.
+* 6. Finally, in the table from step 5, the data was grouped by the columns "subjectID" and "activity", and then the mean function was applied to the other columns.
 * 7. The table was written to a file with: write.table(result, file="tidyData.txt", row.names = FALSE)
 For more information see the README.md file: https://github.com/StefanStavrev88/GettingAndCleaningDataProject/blob/master/README.md
 
