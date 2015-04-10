@@ -1,6 +1,8 @@
 # Code Book
 Author: Stefan Stavrev
+
 Date: April, 2015
+
 Contact: stefanstavrev88@gmail.com
 
 ## Project Description
