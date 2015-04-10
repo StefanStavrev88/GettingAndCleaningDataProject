@@ -1,4 +1,7 @@
 # Code Book
+Author: Stefan Stavrev
+Date: April, 2015
+Contact: stefanstavrev88@gmail.com
 
 ## Project Description
 This is a course project for the course "Getting and Cleaning Data (Johns Hopkins University)" taught by Jeff Leek, Roger D. Peng, Brian Caffo. It is part of a 10 courses specialization in Data Science. The goal of the project was to take raw data as input and to write an R script that will produce tidy data, that is, data that is ready for analysis.                                                           
